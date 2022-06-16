@@ -5,7 +5,6 @@ import {
   Heading,
   Image,
   useColorModeValue,
-  Link,
   Button,
   Stack,
   List,
@@ -17,7 +16,7 @@ import Layout from '../components/article'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
-import { FaTwitter, FaLinkedinIn, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { SiGmail } from 'react-icons/si'
 import styles from '../styles/home.module.css'
 
