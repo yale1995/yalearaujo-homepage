@@ -56,7 +56,7 @@ const Navbar = props => {
         align="center"
         justify="space-between"
       >
-        <Flex align="center" mr={5}>
+        <Flex align="center" mr={5} >
           <Heading as="h1" size="lg" letterSpacing={'tighter'}>
             <Logo />
           </Heading>
@@ -69,11 +69,11 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path}>
-            Works
+          <LinkItem href="/portfolio" path={path}>
+            Portfólio
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
+          <LinkItem href="/publicacoes" path={path}>
+            Publicações
           </LinkItem>
         </Stack>
         <Box flex={1} align="right">
@@ -88,16 +88,16 @@ const Navbar = props => {
               />
               <MenuList>
                   <NextLink href='/' passHref>
-                      <MenuItem>About</MenuItem>
+                      <MenuItem>Sobre</MenuItem>
                   </NextLink>
-                  <NextLink href='/works' passHref>
-                      <MenuItem as={Link}>Works</MenuItem>
+                  <NextLink href='/portfolio' passHref>
+                      <MenuItem as={Link}>Portfólio</MenuItem>
                   </NextLink>
-                  <NextLink href='/posts' passHref>
-                      <MenuItem as={Link}>Posts</MenuItem>
+                  <NextLink href='/publicacoes' passHref>
+                      <MenuItem as={Link}>Publicações</MenuItem>
                   </NextLink>
                   <NextLink href='http://github.com/yale1995' passHref>
-                      <MenuItem as={Link}>View Source</MenuItem>
+                      <MenuItem as={Link}>Github</MenuItem>
                   </NextLink>
               </MenuList>
             </Menu>
