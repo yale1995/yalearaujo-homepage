@@ -54,7 +54,7 @@ export default function Home() {
               display="inline-block"
               borderRadius="full"
               src="./images/123.jpeg"
-              alt="Profile image"
+              alt="Imagem de avatar"
             />
           </Box>
         </Box>
@@ -149,7 +149,7 @@ export default function Home() {
             <ListItem>
               <NextLink href="https://twitter.com/yale_araujo">
                 <a className={styles.link}>
-                  <ListIcon as={FaTwitter} />
+                  <ListIcon as={FaTwitter} alt='Ícone twitter'/>
                   @yale1995
                 </a>
               </NextLink>
@@ -157,7 +157,7 @@ export default function Home() {
             <ListItem>
               <NextLink href="http://linkedin.com/in/yalearaujo">
                 <a className={styles.link}>
-                  <ListIcon as={FaLinkedin} />
+                  <ListIcon as={FaLinkedin} alt='Ícone linkedin'/>
                   Yale Araújo
                 </a>
               </NextLink>
@@ -165,7 +165,7 @@ export default function Home() {
             <ListItem>
               <NextLink href="https://twitter.com/yale_araujo">
                 <a className={styles.link}>
-                  <ListIcon as={FaGithub} />
+                  <ListIcon as={FaGithub} alt='Ícone github' />
                   @yale1995
                 </a>
               </NextLink>
@@ -173,7 +173,7 @@ export default function Home() {
             <ListItem>
               <NextLink href="mailto:yale850@gmail.com?subject=Quero te contratar">
                 <a className={styles.link}>
-                  <ListIcon as={SiGmail} />
+                  <ListIcon as={SiGmail} alt='Ícone gmail' />
                   yale850@gmail.com
                 </a>
               </NextLink>

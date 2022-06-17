@@ -5,9 +5,9 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/noesQbNk5YrXLVBl1ENoz/_buildManifest.js",
-    "static/noesQbNk5YrXLVBl1ENoz/_ssgManifest.js",
-    "static/noesQbNk5YrXLVBl1ENoz/_middlewareManifest.js"
+    "static/ApLbvaxH5v2_MZMKkUB0N/_buildManifest.js",
+    "static/ApLbvaxH5v2_MZMKkUB0N/_ssgManifest.js",
+    "static/ApLbvaxH5v2_MZMKkUB0N/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
@@ -17,7 +17,7 @@
       "static/chunks/d0447323-7f68ce491d5f9552.js",
       "static/chunks/1bfc9850-9dcfb4ae1c517917.js",
       "static/css/c3a0fc745ada1137.css",
-      "static/chunks/pages/index-686da7c9b045b184.js"
+      "static/chunks/pages/index-917535686aae16c9.js"
     ],
     "/404": [
       "static/chunks/webpack-9b0e45c24ba97727.js",
@@ -29,7 +29,7 @@
       "static/chunks/webpack-9b0e45c24ba97727.js",
       "static/chunks/framework-a87821de553db91d.js",
       "static/chunks/main-fc7d2f0e2098927e.js",
-      "static/chunks/pages/_app-d6caf7cb7a0340f8.js"
+      "static/chunks/pages/_app-ea4f58bc276863f7.js"
     ],
     "/_error": [
       "static/chunks/webpack-9b0e45c24ba97727.js",
@@ -41,13 +41,25 @@
       "static/chunks/webpack-9b0e45c24ba97727.js",
       "static/chunks/framework-a87821de553db91d.js",
       "static/chunks/main-fc7d2f0e2098927e.js",
-      "static/chunks/pages/portfolio-1edd2123cac1843b.js"
+      "static/chunks/pages/portfolio-57d83b76266f4b23.js"
     ],
-    "/works/ignews": [
+    "/portfolio/ignews": [
       "static/chunks/webpack-9b0e45c24ba97727.js",
       "static/chunks/framework-a87821de553db91d.js",
       "static/chunks/main-fc7d2f0e2098927e.js",
-      "static/chunks/pages/works/ignews-9a86a337e6e3a560.js"
+      "static/chunks/pages/portfolio/ignews-939eafcfdb60df5a.js"
+    ],
+    "/portfolio/rumoadefensoria": [
+      "static/chunks/webpack-9b0e45c24ba97727.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-fc7d2f0e2098927e.js",
+      "static/chunks/pages/portfolio/rumoadefensoria-e56a6c6c97475f7d.js"
+    ],
+    "/portfolio/worldtrip": [
+      "static/chunks/webpack-9b0e45c24ba97727.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-fc7d2f0e2098927e.js",
+      "static/chunks/pages/portfolio/worldtrip-8f213cd63d3cf4f4.js"
     ]
   },
   "ampFirstPages": []

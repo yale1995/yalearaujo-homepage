@@ -5,5 +5,7 @@
   "/404": "pages/404.html",
   "/": "pages/index.html",
   "/portfolio": "pages/portfolio.html",
-  "/works/ignews": "pages/works/ignews.js"
+  "/portfolio/rumoadefensoria": "pages/portfolio/rumoadefensoria.js",
+  "/portfolio/ignews": "pages/portfolio/ignews.js",
+  "/portfolio/worldtrip": "pages/portfolio/worldtrip.js"
 }

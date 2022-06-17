@@ -130,7 +130,7 @@ const WorkGridItem = ({ children , id , title , thumbnail  })=>/*#__PURE__*/ rea
         w: "100%",
         textAlign: "center",
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-            href: `/works/${id}`,
+            href: `/portfolio/${id}`,
             passHref: true,
             scroll: false,
             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.LinkBox, {
@@ -143,7 +143,7 @@ const WorkGridItem = ({ children , id , title , thumbnail  })=>/*#__PURE__*/ rea
                         placeholder: "blur"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.LinkOverlay, {
-                        href: `/works/${id}`,
+                        href: `/portfolio/${id}`,
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.Text, {
                             mt: 2,
                             fontSize: 20,

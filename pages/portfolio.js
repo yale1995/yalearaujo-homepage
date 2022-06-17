@@ -4,8 +4,8 @@ import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/article'
 
 import thumbIgnews from '../public/images/works/ignews.png'
-import thumbDtmoney from '../public/images/works/dtmoney.png'
-import thumbTodo from '../public/images/works/to-do.png'
+import thumbWorldtrip from '../public/images/works/worldtrip.png'
+import thumbRDP from '../public/images/works/rdp.png'
 
 const Works = () => {
   return (
@@ -17,18 +17,29 @@ const Works = () => {
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.1}>
           <WorkGridItem id="ignews" title="ignews" thumbnail={thumbIgnews}>
-            Paid content to subscribers.
-            payment.
+           Venda de conteúdo para assinantes.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="dtmoney" title="dtmoney" thumbnail={thumbDtmoney}>
-            Financial app to organize monthly expenses.
+          <WorkGridItem id="worldtrip" title="Worldtrip" thumbnail={thumbWorldtrip}>
+            Aplicação para agência de viagens.
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+    </Container>
+    <Container>
+      <Heading as="h3" fontSize={20} mb={4}>
+        Onde eu trabalhei
+      </Heading>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.1}>
+          <WorkGridItem id="rumoadefensoria" title="Rumo a Defensoria" thumbnail={thumbRDP}>
+           Venda de conteúdo para assinantes.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="todolist" title="to-do-list" thumbnail={thumbTodo}>
-            Activity management app
+          <WorkGridItem id="worldtrip" title="Worldtrip" thumbnail={thumbWorldtrip}>
+            Aplicação para agência de viagens.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
