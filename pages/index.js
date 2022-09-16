@@ -53,7 +53,7 @@ export default function Home() {
               maxW="100px"
               display="inline-block"
               borderRadius="full"
-              src="./images/123.jpeg"
+              src="./images/profile.jpeg"
               alt="Imagem de avatar"
             />
           </Box>
@@ -91,7 +91,7 @@ export default function Home() {
             </Paragraph>
           </Stack>
           <Box align="center" my={4}>
-            <NextLink href="/works">
+            <NextLink href="/portfolio">
               <Button colorScheme="teal" rightIcon={<ChevronRightIcon />}>
                 Meu portfólio
               </Button>
