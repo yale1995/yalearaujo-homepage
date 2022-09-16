@@ -10,6 +10,7 @@ import {
   List,
   ListItem,
   ListIcon,
+  Link,
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import Layout from '../components/article'
@@ -18,7 +19,6 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { SiGmail } from 'react-icons/si'
-import styles from '../styles/home.module.css'
 
 export default function Home() {
   return (
@@ -65,27 +65,30 @@ export default function Home() {
           <Stack>
             <Paragraph>
               Yale é um desenvolvedor de software frontend. Brasileiro,
-              nordestino e apaixonado por tecnologia!
-            </Paragraph>
-            <Paragraph>
-              Iniciou sua carreira na área de tecnologia aos 18 anos quando
-              ingressou na universidade e implementou suas primeiras linhas de
-              código utilizando as linguagens Python e C++.
+              nordestino e apaixonado por tecnologia! Iniciou sua carreira na
+              área de tecnologia aos 18 anos quando ingressou na universidade e
+              implementou suas primeiras linhas de código utilizando as
+              linguagens Python e C++.
             </Paragraph>
             <Paragraph>
               Tornou-se Bacharel em Ciências e Tecnologia em 2018 e Engenheiro
               Mecânico em 2020 ambos pela Universidade Federal do Rio Grande do
-              Norte (UFRN)
+              Norte (UFRN).
             </Paragraph>
             <Paragraph>
-              Atualmente Yale é Frontend Developer na LeadMark, onde constrói
-              aplicações de alta performance, voltadas para área de marketing,
-              com foco na conversão de clientes.
-            </Paragraph>
-            <Paragraph>
-              O perfil profissional de Yale Araújo está disponível no{' '}
-              <NextLink href="http://linkedin.com/in/yalearaujo">
-                <a className={styles.link}> Linkedin</a>
+              Yale atuou no time de desenvolvimento da plataforma de cursos Rumo
+              A Defensoria (RDP), onde contribuiu no frontend das aplicações da
+              empresa. Atualmente ocupa o cargo de Frontend Developer na
+              LeadMark, desenvolvendo aplicações de alta performance, com as
+              principais tecnologias do escossistema frontend. Maiores
+              informações profissionais e acadêmicas estão dispostas no perfil
+              do
+              <NextLink
+                href="http://linkedin.com/in/yalearaujo"
+                passHref
+                scroll={false}
+              >
+                <Link> Linkedin</Link>
               </NextLink>
               .
             </Paragraph>
@@ -147,35 +150,51 @@ export default function Home() {
           </Heading>
           <List>
             <ListItem>
-              <NextLink href="https://twitter.com/yale_araujo">
-                <a className={styles.link}>
-                  <ListIcon as={FaTwitter} alt='Ícone twitter'/>
+              <NextLink
+                href="https://twitter.com/yale_araujo"
+                passHref
+                scroll={false}
+              >
+                <Link>
+                  <ListIcon as={FaTwitter} alt="Ícone twitter" />
                   @yale1995
-                </a>
+                </Link>
               </NextLink>
             </ListItem>
             <ListItem>
-              <NextLink href="http://linkedin.com/in/yalearaujo">
-                <a className={styles.link}>
-                  <ListIcon as={FaLinkedin} alt='Ícone linkedin'/>
+              <NextLink
+                href="http://linkedin.com/in/yalearaujo"
+                passHref
+                scroll={false}
+              >
+                <Link>
+                  <ListIcon as={FaLinkedin} alt="Ícone linkedin" />
                   Yale Araújo
-                </a>
+                </Link>
               </NextLink>
             </ListItem>
             <ListItem>
-              <NextLink href="https://twitter.com/yale_araujo">
-                <a className={styles.link}>
-                  <ListIcon as={FaGithub} alt='Ícone github' />
+              <NextLink
+                href="https://twitter.com/yale_araujo"
+                passHref
+                scroll={false}
+              >
+                <Link>
+                  <ListIcon as={FaGithub} alt="Ícone github" />
                   @yale1995
-                </a>
+                </Link>
               </NextLink>
             </ListItem>
             <ListItem>
-              <NextLink href="mailto:yale850@gmail.com?subject=Quero te contratar">
-                <a className={styles.link}>
-                  <ListIcon as={SiGmail} alt='Ícone gmail' />
+              <NextLink
+                href="mailto:yale850@gmail.com?subject=Quero te contratar"
+                passHref
+                scroll={false}
+              >
+                <Link>
+                  <ListIcon as={SiGmail} alt="Ícone gmail" />
                   yale850@gmail.com
-                </a>
+                </Link>
               </NextLink>
             </ListItem>
           </List>
