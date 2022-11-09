@@ -7,7 +7,7 @@ import Layout from '../../components/article'
 const Work = () => (
   <Layout title="ignews">
     <Container>
-      <Title>
+      <Title anchor='/portfolio' link='Portfólio'>
         ig.news <Badge>2022</Badge>
       </Title>
       <P>

@@ -13,7 +13,7 @@ import Layout from '../../components/article'
 const Work = () => (
   <Layout title="Rumo a Defensoria">
     <Container>
-      <Title>
+      <Title anchor='/portfolio' link='Portfólio'>
         Rumo a Defensoria <Badge>2021</Badge>
       </Title>
       <P>
