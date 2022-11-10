@@ -11,14 +11,14 @@ export default function Publication(props) {
   const [publication, setPublication] = useState()
 
   var id = props.id
-  
+
   useEffect(() => {
     getPublication()
   }, [])
 
   async function getPublication() {
-    const response = await api.get(`publications/${id}`)
-    setPublication(response?.data?.publication[0])
+    const response = await api.get(`publication/${id}`)
+    setPublication(response?.data?.filteredPublication[0])
   }
   return (
     <Layout title={publication?.title}>

@@ -14,32 +14,24 @@ export default function Publications() {
   }, [])
 
   async function getPublication() {
-    const response = await api.get('publications/1')
-    return setPublication(response?.data?.publication[0])
+    const response = await api.get('publications')
+    return setPublication(response?.data?.publications)
   }
 
   return (
     <Layout>
-      <Container>
-        <NextLink href="/publicacoes/1" passHref scroll={false}>
-          <Link>
-            <Heading as="h1" fontSize={20} mt={10} mb={2}>
-              {publication?.title}
-            </Heading>
-          </Link>
-        </NextLink>
-        <Text fontSize={15}>{publication?.description}</Text>
-      </Container>
-      <Container>
-        <NextLink href="/publicacoes/2" passHref scroll={false}>
-          <Link>
-            <Heading as="h1" fontSize={20} mt={10} mb={2}>
-              {publication?.title}
-            </Heading>
-          </Link>
-        </NextLink>
-        <Text fontSize={15}>{publication?.description}</Text>
-      </Container>
+      {publication?.map(item => (
+        <Container key={item.id}>
+          <NextLink href={`/publicacoes/${item.id}`} passHref scroll={false}>
+            <Link>
+              <Heading as="h1" fontSize={20} mt={10} mb={2}>
+                {item.title}
+              </Heading>
+            </Link>
+          </NextLink>
+          <Text fontSize={15}>{item.description}</Text>
+        </Container>
+      ))}
     </Layout>
   )
 }

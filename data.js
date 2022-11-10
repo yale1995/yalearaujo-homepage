@@ -1,6 +1,4 @@
-/* eslint-disable no-unused-vars */
-export default function Publications(request, response) {
-  const publications = [
+export const publications = [
     {
       id: 1,
       title: 'Entendendo a tecnologia mais amada do momento: o ReactJS',
@@ -32,12 +30,3 @@ export default function Publications(request, response) {
       },
     },
   ]
-
-  const publication = publications.filter(publication => {
-    if (publication.id == request.query.id) {
-      return publication
-    } 
-  })
-
-  return response.status(200).json({ publication })
-}
